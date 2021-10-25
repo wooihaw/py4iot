@@ -19,7 +19,7 @@
 1. Navigate to the folder with the extracted repository.
 2. Create a virtual environment:
     - python -m venv env
-3. Once the virtual environment has been created, there is be a folder called "env" in the current folder.
+3. Once the virtual environment has been created, there will be a folder called "env" in the current folder.
 4. To activate the virtual environment in Windows:
    - cd env\Scripts
    - activate
