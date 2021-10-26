@@ -1,21 +1,21 @@
-- [IMPORTANT](#important)
-- [Preparing to run the sample codes](#preparing-to-run-the-sample-codes)
-  - [Create virtual environment with Conda](#create-virtual-environment-with-conda)
-  - [Create virtual environment with Python venv](#create-virtual-environment-with-python-venv)
-  - [Install only the required Python modules and packages](#install-only-the-required-python-modules-and-packages)
-- [Description of Sample Codes](#description-of-sample-codes)
+- [1. IMPORTANT](#1-important)
+- [2. Preparing to run the sample codes](#2-preparing-to-run-the-sample-codes)
+  - [2.1. Create virtual environment with Conda](#21-create-virtual-environment-with-conda)
+  - [2.2. Create virtual environment with Python venv](#22-create-virtual-environment-with-python-venv)
+  - [2.3. Install only the required Python modules and packages](#23-install-only-the-required-python-modules-and-packages)
+- [3. Description of Sample Codes](#3-description-of-sample-codes)
 
 
 
-# IMPORTANT
-The materials in this repository (https://github.com/wooihaw/py4iot) are meant for proof-of-concept (POC) only and they must not be used for production or deployment.
+# 1. IMPORTANT
+The materials in this [repository](https://github.com/wooihaw/py4iot) (https://github.com/wooihaw/py4iot) are meant for proof-of-concept (POC) only and they must not be used for production or deployment.
 
-# Preparing to run the sample codes
+# 2. Preparing to run the sample codes
 1. Download the repository as a zip file.
 2. Once downloaded, extract the zip file into its own folder.
 3. Follow one of the methods below to create a virtual environment.
 
-## Create virtual environment with Conda
+## 2.1. Create virtual environment with Conda
 1. Follow this method if you have installed Anaconda.
 2. Launch Anaconda Prompt.
 3. Create a cirtual environment called py4iot with Python 3.9:
@@ -28,7 +28,7 @@ The materials in this repository (https://github.com/wooihaw/py4iot) are meant f
 7. To deactivate the virtual environment:
    - conda deactivate
 
-## Create virtual environment with Python venv
+## 2.2. Create virtual environment with Python venv
 1. Launch a terminal/command prompt.
 2. Navigate to the folder with the extracted repository.
 3. Create a virtual environment:
@@ -42,12 +42,13 @@ The materials in this repository (https://github.com/wooihaw/py4iot) are meant f
 7. To deactive the virtual environment in Windows or Linux:
    - deactivate
 
-## Install only the required Python modules and packages
-1. Launch a terminal/command prompt.
-2. Install the required modules and packages:
+## 2.3. Install only the required Python modules and packages
+1. Follow this method if you do not wish to create a virtual environment.
+2. Launch a terminal/command prompt.
+3. Install the required Python modules and packages:
    - python -m pip install paho-mqtt dash
 
-# Description of Sample Codes
+# 3. Description of Sample Codes
 Filename | Description
 :---|:---
 api_app.py | Python script for RESTful API (server)
