@@ -49,7 +49,7 @@ The materials in this [repository](https://github.com/wooihaw/py4iot) (https://g
 1. Follow this method if you do not wish to create a virtual environment.
 2. Launch a terminal/command prompt.
 3. Install the required Python modules and packages:
-   - python -m pip install paho-mqtt dash
+   - python -m pip install requests paho-mqtt dash
 
 # 3. Description of Sample Codes
 Filename | Description
