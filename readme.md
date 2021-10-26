@@ -1,3 +1,12 @@
+- [IMPORTANT](#important)
+- [Preparing to run the sample codes](#preparing-to-run-the-sample-codes)
+  - [Create virtual environment with Conda](#create-virtual-environment-with-conda)
+  - [Create virtual environment with Python venv](#create-virtual-environment-with-python-venv)
+  - [Install only the required Python modules and packages](#install-only-the-required-python-modules-and-packages)
+- [Description of Sample Codes](#description-of-sample-codes)
+
+
+
 # IMPORTANT
 The materials in this repository (https://github.com/wooihaw/py4iot) are meant for proof-of-concept (POC) only and they must not be used for production or deployment.
 
@@ -37,3 +46,12 @@ The materials in this repository (https://github.com/wooihaw/py4iot) are meant f
 1. Launch a terminal/command prompt.
 2. Install the required modules and packages:
    - python -m pip install paho-mqtt dash
+
+# Description of Sample Codes
+Filename | Description
+:---|:---
+api_app.py | Python script for RESTful API (server)
+api_example | Python script on accessing the RESTful API (client)
+dashboard_app.py | Python script for the dashboard (server)
+mqtt_pub.py | Python script for MQTT publisher
+mqtt_sub.py | Python script for MQTT subscriber
