@@ -7,7 +7,7 @@
 ## Create virtual environment with Conda
 1. Create a cirtual environment called py4iot with Python 3.9:
    - conda create -n py4iot python=3.9
-2. After the virtual environment is created, acivate it:
+2. After the virtual environment is created, activate it:
    - conda activate py4iot
 3. Navigate to the folder with the extracted repository.
 4. Install the required Python modules and packages:
@@ -19,7 +19,7 @@
 1. Navigate to the folder with the extracted repository.
 2. Create a virtual environment:
     - python -m venv env
-3. Once the virtual environment has been created, there is be a folder called "env" in the current folder.
+3. Once the virtual environment has been created, there will be a folder called "env" in the current folder.
 4. To activate the virtual environment in Windows:
    - cd env\Scripts
    - activate
