@@ -39,7 +39,9 @@ The materials in this [repository](https://github.com/wooihaw/py4iot) (https://g
    - activate
 6. To active the virtual environment in Linux:
    - souce env/bin/activate
-7. To deactive the virtual environment in Windows or Linux:
+7. Install the required Python modules and packages:
+   - python -m pip install -r requirements.txt
+8. To deactive the virtual environment in Windows or Linux:
    - deactivate
 
 ## 2.3. Install only the required Python modules and packages
