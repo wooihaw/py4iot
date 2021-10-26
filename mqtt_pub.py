@@ -1,6 +1,6 @@
 from time import sleep
 from random import gauss
-from uuid import uuid1
+from uuid import uuid1, getnode
 from json import dumps
 import paho.mqtt.client as mqtt
 
@@ -11,7 +11,10 @@ def on_publish(client, userdata, result):  # callback function for publish
 
 broker = "test.mosquitto.org"
 port = 1883
-topic = "myhome/sensor1"
+
+# Make sure that the topic is unique for your machine
+machineID = hex(getnode())[-7:]  # last 7 hex digits of MAC address
+topic = machineID + "/sensor1"
 
 client1 = mqtt.Client(str(uuid1()))  # create client object
 client1.on_publish = on_publish  # assign callback function
