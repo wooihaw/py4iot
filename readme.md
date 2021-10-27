@@ -16,7 +16,7 @@ The materials in this [repository](https://github.com/wooihaw/py4iot) (https://g
 # 2. Introduction
 1. This project simulates a typical IoT system as shown in the following figure.
    
-   ![Block diagram 1](images/block_diagram1.png)
+   ![Block diagram 1](images/block_diagram1.jpg)
 2. The IoT device publishes a set of sensory data (temperature and humidity) to the MQTT broker (test.mosquitto.org).
 3. The web server receives the sensory data via subscription from the MQTT broker and stores the data in the database.
 4. The web server is also running web services that allow the web client to send data to and retrieve data from the database.
@@ -78,7 +78,7 @@ The materials in this [repository](https://github.com/wooihaw/py4iot) (https://g
 | sql_func.py      | Python module with helper functions for SQLite      |
 
 2. The figure below shows the role of each Python script diagrammatically.
-![Block diagram 2](images/block_diagram2.png)
+![Block diagram 2](images/block_diagram2.jpg)
 
 3. In this project, the local machine (the computer on which the Python scripts are running) simulates the roles of the IoT device, the web server and the web client.
 
@@ -93,7 +93,7 @@ The materials in this [repository](https://github.com/wooihaw/py4iot) (https://g
 
 # 6. Screenshots
 1. Running Python scripts in Anaconda Prompt.
-![screenshot 1](images/screenshot1.png)
+![screenshot 1](images/screenshot1.jpg)
 
 2. Viewing Iot dashboard on Edge browser.
-![screenshot 2](images/screenshot2.png)
+![screenshot 2](images/screenshot2.jpg)
