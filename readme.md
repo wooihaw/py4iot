@@ -14,8 +14,9 @@
 The materials in this [repository](https://github.com/wooihaw/py4iot) (https://github.com/wooihaw/py4iot) are meant for proof-of-concept (POC) only and they must not be used for production or deployment.
 
 # 2. Introduction
-1. This project simulates a typical IoT system with an IoT device, MQTT broker, web server and web client, as shown in the following figure.
-![Block diagram 1](images/block_diagram1.png)
+1. This project simulates a typical IoT system as shown in the following figure.
+   
+   ![Block diagram 1](images/block_diagram1.png)
 2. The IoT device publishes a set of sensory data (temperature and humidity) to the MQTT broker (test.mosquitto.org).
 3. The web server receives the sensory data via subscription from the MQTT broker and stores the data in the database.
 4. The web server is also running web services that allow the web client to send data to and retrieve data from the database.
