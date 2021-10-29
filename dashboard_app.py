@@ -71,7 +71,7 @@ def update_graph_live(n):
         conn = sf.create_connection(db_file)
         with conn:
             rows = sf.get_latestdata(conn, n_data)
-            if len(rows) > 0:
+            if rows:  # if rows is not empty
                 data["time"] = [dt.fromtimestamp(row[0]) for row in rows]
                 data["temperature"] = [row[1] for row in rows]
                 data["humidity"] = [row[2] for row in rows]

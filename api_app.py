@@ -64,7 +64,7 @@ def get_data():
         conn = sf.create_connection(db_file)
         with conn:
             rows = sf.get_latestdata(conn, n=n)
-            if len(rows) == 0:
+            if not rows:  # if rows is empty
                 return "No data"
             data = {"timestamp": [], "temperature": [], "humidity": []}
             data["timestamp"] = [row[0] for row in rows]
