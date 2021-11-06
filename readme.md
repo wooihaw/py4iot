@@ -1,3 +1,5 @@
+# Table of Contents
+<!-- no toc -->
 - [1. IMPORTANT](#1-important)
 - [2. Introduction](#2-introduction)
 - [3. Preparing to run the sample codes](#3-preparing-to-run-the-sample-codes)
@@ -95,5 +97,5 @@ The materials in this [repository](https://github.com/wooihaw/py4iot) (https://g
 1. Running Python scripts in Anaconda Prompt.
 ![screenshot 1](images/screenshot1.jpg)
 
-2. Viewing Iot dashboard on Edge browser.
+2. Viewing IoT dashboard on web browser.
 ![screenshot 2](images/screenshot2.jpg)
